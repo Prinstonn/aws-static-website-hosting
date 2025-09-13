@@ -30,7 +30,7 @@ The goal of this project is to showcase how to host a **production-ready static 
 
 ---
 
- **Architecture Diagram:** 
+ **Architecture Diagram:** (./Static-hosting-architecture.png)
 
 📂 Project Structure
 .

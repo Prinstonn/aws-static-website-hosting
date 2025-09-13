@@ -30,7 +30,7 @@ The goal of this project is to showcase how to host a **production-ready static 
 
 ---
 
-## Architecture Diagram: 
+ **Architecture Diagram:** 
 
 📂 Project Structure
 .
@@ -39,7 +39,7 @@ The goal of this project is to showcase how to host a **production-ready static 
 ├── script.js
 └── README.md
 
-
+---
 
 ## Security Considerations
 
@@ -49,7 +49,7 @@ The goal of this project is to showcase how to host a **production-ready static 
 
 - S3 bucket access restricted to CloudFront (Origin Access Control/Identity).
 
-  
+  ---
 
 ## Key Benefits
 
@@ -76,14 +76,18 @@ The goal of this project is to showcase how to host a **production-ready static 
 - Verify HTTPS by accessing your domain securely.
 - 
 
-**Author**
+---
+
+## Author
 
 Prinston Sarfo
 
-💼 Cloud/DevOps Enthusiast
+- Cloud/DevOps Enthusiast
 
-🌍 Passionate about AWS & scalable architectures
+- Passionate about AWS & scalable architectures
 
-**License**
+  ---
+
+## License
 
 This project is licensed under the MIT License – feel free to use, modify, and share.

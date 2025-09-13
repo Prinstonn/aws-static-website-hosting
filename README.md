@@ -39,6 +39,7 @@ The goal of this project is to showcase how to host a **production-ready static 
 ├── index.html
 ├── styles.css
 ├── script.js
+├── images
 └── README.md
 
 ---
@@ -76,7 +77,20 @@ The goal of this project is to showcase how to host a **production-ready static 
 - Configure Route 53 to map your domain to the CloudFront distribution.
 
 - Verify HTTPS by accessing your domain securely.
-- 
+
+--- 
+
+  ## 📚 Skills Learned
+- S3 hosting & CloudFront caching.  
+- SSL/TLS setup with ACM.  
+- DNS management with Route 53.  
+- Cost optimization for low-traffic websites.  
+
+---
+
+## 📌 Next Steps
+- Add CI/CD pipeline for automatic deployment.  
+- Integrate CloudWatch monitoring for performance.  
 
 ---
 

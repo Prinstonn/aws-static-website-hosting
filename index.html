@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savory Delights | Fine Dining Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <i class="fas fa-utensils"></i>
+                    Savory <span>Delights</span>
+                </a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#reservation">Reservations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Exquisite Dining Experience</h1>
+                <p>Indulge in our culinary masterpiece crafted with passion and the finest ingredients</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn">View Menu</a>
+                    <a href="#reservation" class="btn">Reserve a Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>A Journey of Flavors</h2>
+                    <p>Founded in 2005, Savory Delights began as a small family-owned restaurant with a passion for creating memorable dining experiences. Our chefs combine traditional recipes with innovative techniques to bring you dishes that tantalize your taste buds.</p>
+                    <p>We source our ingredients from local farmers and producers, ensuring the freshest and most sustainable options for our discerning customers.</p>
+                    <a href="#reservation" class="btn">Book a Table</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzdGF1cmFudCUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="Restaurant Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="starters">Starters</button>
+                <button class="filter-btn" data-filter="mains">Main Courses</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item" data-category="starters">
+                    <img src="img/seafood.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Seafood Platter</h3>
+                            <span class="menu-item-price">$18</span>
+                        </div>
+                        <p>Fresh selection of oysters, shrimp, and crab with homemade sauces</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/Herb-Crusted-Chicken.webp" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Herb-Crusted Chicken</h3>
+                            <span class="menu-item-price">$24</span>
+                        </div>
+                        <p>Free-range chicken with rosemary and thyme, served with seasonal vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="mains">
+                    <img src="img/beef_wellington_recipe_wes_tyler-scaled.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Beef Wellington</h3>
+                            <span class="menu-item-price">$32</span>
+                        </div>
+                        <p>Prime beef tenderloin wrapped in puff pastry with mushroom duxelles</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="desserts">
+                    <img src="img/Chocolate-Souffle.webp" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Chocolate Soufflé</h3>
+                            <span class="menu-item-price">$12</span>
+                        </div>
+                        <p>Decadent chocolate soufflé with a molten center, served with vanilla ice cream</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="drinks">
+                    <img src="img/whimsical-signature-cocktails.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Signature Cocktails</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p>Handcrafted cocktails made with premium spirits and fresh ingredients</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="img/basket-for-artisan-bakery.jpg" alt="" height="200px" width="100%">
+                    <div class="menu-item-info">
+                        <div class="menu-item-title">
+                            <h3>Artisan Bread Basket</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p>Selection of homemade breads with infused olive oil and balsamic vinegar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"The best dining experience I've had in years. The food was exceptional and the service was impeccable."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>Food Critic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"Every dish was a masterpiece. The flavors were perfectly balanced and the presentation was stunning."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <p>Regular Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"The atmosphere was perfect for our anniversary dinner. The staff went above and beyond to make it special."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Emily Rodriguez">
+                        <div>
+                            <h4>Emily Rodriguez</h4>
+                            <p>First-time Visitor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <div class="container">
+            <h2 class="section-title">Make a Reservation</h2>
+            <div class="reservation-form">
+                <form id="reservationForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" required>
+                            <option value="">Select number of guests</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6">6 People</option>
+                            <option value="7">7+ People</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Savory Delights</h3>
+                    <p>Experience the finest culinary journey with our exquisite dishes and impeccable service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Hours</h3>
+                    <ul>
+                        <li>Monday - Thursday: 11am - 10pm</li>
+                        <li>Friday - Saturday: 11am - 11pm</li>
+                        <li>Sunday: 11am - 9pm</li>
+                        <li>Happy Hour: 4pm - 6pm Daily</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Gourmet Street, Foodville</li>
+                        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@savorydelights.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Alizeh Codes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
